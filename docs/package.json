@@ -1,0 +1,19 @@
+{
+  "name": "thoughts-blog",
+  "version": "0.0.1",
+  "description": "A place for thoughts.",
+  "main": "index.js",
+  "authors": {
+    "name": "",
+    "email": "rvniemela@hotmail.com"
+  },
+  "repository": "https://github.com/rniemela77/thoughts-blog/thoughts-blog",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
