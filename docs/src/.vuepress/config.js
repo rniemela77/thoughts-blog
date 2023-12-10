@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'thoughtblog',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -33,28 +33,42 @@ module.exports = {
     editLinkText: '',
     lastUpdated: false,
     nav: [
+      // {
+      //   text: 'Guide',
+      //   link: '/guide/',
+      // },
+      // {
+      //   text: 'Config',
+      //   link: '/config/'
+      // },
+      // {
+      //   text: 'VuePress',
+      //   link: 'https://v1.vuepress.vuejs.org'
+      // },
       {
-        text: 'Guide',
-        link: '/guide/',
+        text: 'Posts',
+        link: '/posts/'
       },
-      {
-        text: 'Config',
-        link: '/config/'
-      },
-      {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
-      }
     ],
     sidebar: {
-      '/guide/': [
+      // '/guide/': [
+      //   {
+      //     title: 'Guide',
+      //     collapsable: false,
+      //     children: [
+      //       '',
+      //       'using-vue',
+      //     ]
+      //   }
+      // ],
+      '/posts/': [
         {
-          title: 'Guide',
+          title: 'Posts',
           collapsable: false,
           children: [
             '',
-            'using-vue',
-          ]
+            '1',
+          ],
         }
       ],
     }
