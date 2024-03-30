@@ -1,8 +1,8 @@
 ---
 home: true
 # heroImage: https://v1.vuepress.vuejs.org/hero.png
-tagline: A place for thoughts
-actionText:  Read →
+tagline: Please do whatever you want.
+actionText: Okay →
 actionLink: /posts/
 # features:
 # - title: Feature 1 Title

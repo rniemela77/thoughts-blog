@@ -9,3 +9,30 @@
 
 body
   background-color #E8FFFE
+  text-align center
+
+blockquote
+  color black
+  font-weight bold
+  font-style italic
+  border none
+  padding 1rem
+  background rgba(0, 0, 0, 0.05)
+  display inline-block
+  position relative
+
+blockquote::before
+  content "''"
+  position absolute
+  left 0
+  top 0
+  font-size 2rem
+  opacity 0.2
+
+blockquote::after
+  content "''"
+  position absolute
+  right 0
+  top 0
+  font-size 2rem
+  opacity 0.2
