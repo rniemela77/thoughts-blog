@@ -4,11 +4,11 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: '🥳 Wizdumb',
+  title: 'wizdumb',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
-  description: description,
+  description: 'A blog about weird philosophical ideas.',
 
   /**
    * Extra tags to be injected to the page HTML `<head>`
@@ -36,6 +36,7 @@ module.exports = {
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
+    logo: '/favicon-32x32.png',
     nav: [
       // {
       //   text: 'Guide',
